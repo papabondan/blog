@@ -20,6 +20,12 @@ defaults:
       path: '_pages'
     values:
       permalink: /:title/
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /:title/
 
 include:
   - _pages
